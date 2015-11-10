@@ -3,3 +3,43 @@
 1. 리눅스 설치 - ubuntu, centos GUI 환경 설치 (KDE 또는 GNOME 설치)
   - 데미안 계열 : 쉘 설치 (Bash, TC, C Shell 등)
   - 레드햇 계열 : 리눅스 커널 - 모든 linux가 동일
+
+
+4. 리다이렉션과 파이프 개념
+  ls -al > a.txt 결과를 파일로
+  ls -al | less 결과를 다른 프로그램과 연결
+  
+5. 핵심 명령어 (프로그램) : find, grep, awk, sed + "정규 표현식"
+
+6. 쉘스크립트 만들기 #!/bin/bash
+                      #!/bin/python
+    - 기본 제어문, 반복문, 변수 만들기등
+    - 교제 25장 ~ 끝까지.. html 페이지 만드는 예제가 있습니다.
+    
+7. vi 사용하기
+  - 단축키, p, yy, d 등.... map <> 으로 단축시 설정
+  - .vimrc 파일 설정하기 - google에서 vi autocmd filetype라고 검색해보세요...
+  - plugin 만들기
+  
+8. 사용자 계정 관리하기 - 2일차 소스
+9. 화일 권한 부여하는 방법.. - chmod
+
+10. 프로그램을 설치하는 방법
+  - 자동 설치 : apt-get install
+  - 소스로 부터 설치
+    A. 소스 다운 : wget URL 또는 curl URL (수업시간에 g++다운)
+                  git clone
+    B. 소스 빌드 : make => make install
+
+11. git 으로 파일 관리하기 - pro git pdf 참고
+
+12. 디렉토리 구조
+  /bin, /usr/bin, /sbin : 실행 파일들 모음, 윈도우의 C://windows 또는 C:\\Program files
+  /tmp : 프로그램이 사용하는 임시파일
+  /home/계정 : 사용자의 홈디렉토리
+  /proc : 모든 프로세스의 정보가 계속 업데이트 > HDD가 아닌 커널 메모리와 연결된 폴더
+  /usr/include : stdio.h 등의 C헤더 파일..
+  /root : root의 홈 디렉토리
+  
+13. git을 사용한 파일 관리 기술...
+  
