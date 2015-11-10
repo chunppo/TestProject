@@ -1,0 +1,50 @@
+#!/bin/bash
+
+# 리눅스 핵심 명령어 : find, grep, awk, sed 그리고 정규 표현식, 쉘
+
+# find : 파일 찾기 - 교재 17장 211페이지
+
+# 1. find 기본 모양
+
+# find ~
+
+# find ~ | wc -l # 파이프로 연결해서 갯수 파악
+
+# find ~ -type d | wc -l # -type 옵션 교재 214페이지 참고
+
+# find ~ -type f -name "*.c" -size +1M | wc -l	# 215페이지 참고
+
+# 홈디렉토리에서 모든 파일 중에서 최근 3일 이내에 수정한 모드느 파일을 열거해 보세요
+# 교재 215 페이지 표 17-3에서 옵션 참고
+# find ~ -type f -ctime -3
+
+
+# 2. 옵션의 논리 연산
+# 1k보다 크고 3k보다 작은 파일
+# find ~ -type f \( -size +1k -or -size -3k\)	# ()를 사용한 논리 연산 ~ 217 페이지
+
+# 3. find로 찾은 후 액션(연산수행)
+# find ~ -type f -name "*.swp"	# vi의 백업파일 찾기
+
+# find ~ -type f -name "*.swp" -delete	# vi의 백업파일 찾아서 삭제한다.
+
+# find ~ -type f -name "foo*" -exec ls -l {} \;	# 중요 : 사용자 정의 액션 221페이지, 반드시 세미콜론으로 종료되어야 한다. ';' 또는 \;로 표현
+
+# find ~ -type f -name "foo*" -exec echo {} '*'	# echp는 1번 모든 파일이 한번에 출력된다.
+
+# find ~ -type f -name "foo*" -exec echo {} ';'	# echo는 파일의 갯수 만큼
+
+# find 결과를 모든 xargs로 보내면 xargs 모든 요소를 하나의 문자열로 묶어준다. 그리고 echo에 전달
+# find ~ -type f -name "foo*" | xargs echo	# 파일 이름을 공백으로 구별
+
+# 공백과 NULL문자 아스키기호 숫자 0은 null문자를 의미한다.
+# find ~ -type f -name "foo*" -print0 | xargs -0 echo
+
+# 예저 - C,C++ 소스에서만 원하는 문자열 찾는 함수
+# source find_test
+# 사용법 cgrep printf
+function cgrep()
+{
+	find . -type f \( -name "*.c" -o -name "*.cc" -o -name "*.cpp" -o -name "*.h" -o -name "*.hpp" \) -print0 | xargs -0 grep -n "$@"
+}
+

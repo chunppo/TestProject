@@ -1,0 +1,33 @@
+#!/bin/bash
+
+#name="user100"
+name="root"
+
+grep $name /etc/passwd # /etc/passwd 에서 user100을 찾아라!
+
+echo $?	# 명령또는 함수의 실행 결과가 있는 변수 => 1: 실패, 0: 성공
+
+# 2.변수조사하기 - test명령
+test $name != tom
+echo $?
+
+[ $name = tom ] # [ ] 사이에 공백이 필요하다.
+echo "tom:"$?
+
+#[ $name2 = tom ] # 에러발생
+[ "$name2" = tom ]
+
+# bash일때는 [[ ]] 표현도 가능 - C와 동일한 비교연산이 가능함
+[[ "$name" == "root" ]]
+
+[ "$x" = "A" -o "$y" = "B" ]	# -o or입니다.
+
+[[ "$x" == "AA" || "$y" == "B" ]]
+
+# 크기 비교
+[ $x -le $y ]	# sh
+(( $x > $y ))	# bash
+
+# 파일(디렉토리) 존재 여부 조사
+[ -f "sh1" ]
+echo $?

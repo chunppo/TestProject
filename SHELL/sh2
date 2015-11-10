@@ -1,0 +1,7 @@
+#!//bin/sh
+
+for var in $(ps -al | grep sleep | awk -F ' ' '{print $4}')
+do
+	echo $var
+	kill -9 $var
+done

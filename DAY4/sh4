@@ -1,0 +1,36 @@
+#!/bin/bash
+
+name=""
+
+# 1.기본 모양
+<<READ_1
+echo -n "your name?"
+read name
+
+echo "your name is $name"
+READ_1
+
+# 2.read 활용
+<<READ_2
+read first middle last
+
+echo $first
+echo $middle
+echo $last
+READ_2
+
+# 3.내장 변수 -REPLY
+<<READ_3
+read
+
+echo $REPLY
+
+read -p "your name >> "
+echo $REPLY
+READ_3
+
+# 4.배열로 입력 받기
+read -a people
+
+echo ${people[0]}
+echo ${people[1]}

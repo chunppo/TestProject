@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# 제어문 C: switch ~ case SH: case
+
+name="root"
+
+# 1. 기본모양
+case "$name" in
+	root) echo "root"
+	aaa	) echo "aaa"
+	bbb	) echo "bbb"
+	*)	echo "others"
+esac
+

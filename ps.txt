@@ -1,0 +1,237 @@
+UID         PID   PPID  C STIME TTY          TIME CMD
+root          1      0  0 09:35 ?        00:00:02 /sbin/init
+root          2      0  0 09:35 ?        00:00:00 [kthreadd]
+root          3      2  0 09:35 ?        00:00:24 [ksoftirqd/0]
+root          5      2  0 09:35 ?        00:00:00 [kworker/0:0H]
+root          7      2  0 09:35 ?        00:00:28 [rcu_sched]
+root          8      2  0 09:35 ?        00:00:00 [rcu_bh]
+root          9      2  0 09:35 ?        00:00:29 [rcuos/0]
+root         10      2  0 09:35 ?        00:00:00 [rcuob/0]
+root         11      2  0 09:35 ?        00:00:00 [migration/0]
+root         12      2  0 09:35 ?        00:00:15 [watchdog/0]
+root         13      2  0 09:35 ?        00:00:00 [khelper]
+root         14      2  0 09:35 ?        00:00:00 [kdevtmpfs]
+root         15      2  0 09:35 ?        00:00:00 [netns]
+root         16      2  0 09:35 ?        00:00:00 [perf]
+root         17      2  0 09:35 ?        00:00:00 [khungtaskd]
+root         18      2  0 09:35 ?        00:00:00 [writeback]
+root         19      2  0 09:35 ?        00:00:00 [ksmd]
+root         20      2  0 09:35 ?        00:00:02 [khugepaged]
+root         21      2  0 09:35 ?        00:00:00 [crypto]
+root         22      2  0 09:35 ?        00:00:00 [kintegrityd]
+root         23      2  0 09:35 ?        00:00:00 [bioset]
+root         24      2  0 09:35 ?        00:00:00 [kblockd]
+root         25      2  0 09:35 ?        00:00:00 [ata_sff]
+root         26      2  0 09:35 ?        00:00:00 [md]
+root         27      2  0 09:35 ?        00:00:00 [devfreq_wq]
+root         31      2  0 09:35 ?        00:00:26 [kswapd0]
+root         32      2  0 09:35 ?        00:00:00 [fsnotify_mark]
+root         33      2  0 09:35 ?        00:00:00 [ecryptfs-kthrea]
+root         45      2  0 09:35 ?        00:00:00 [kthrotld]
+root         46      2  0 09:35 ?        00:00:00 [acpi_thermal_pm]
+root         47      2  0 09:35 ?        00:00:00 [scsi_eh_0]
+root         48      2  0 09:35 ?        00:00:00 [scsi_tmf_0]
+root         49      2  0 09:35 ?        00:00:00 [scsi_eh_1]
+root         50      2  0 09:35 ?        00:00:00 [scsi_tmf_1]
+root         55      2  0 09:35 ?        00:00:00 [ipv6_addrconf]
+root         76      2  0 09:35 ?        00:00:00 [deferwq]
+root         77      2  0 09:35 ?        00:00:00 [charger_manager]
+root        123      2  0 09:35 ?        00:00:00 [mpt_poll_0]
+root        124      2  0 09:35 ?        00:00:00 [mpt/0]
+root        125      2  0 09:35 ?        00:00:00 [kpsmoused]
+root        127      2  0 09:35 ?        00:00:00 [scsi_eh_2]
+root        128      2  0 09:35 ?        00:00:00 [scsi_tmf_2]
+root        129      2  0 09:35 ?        00:00:00 [scsi_eh_3]
+root        130      2  0 09:35 ?        00:00:00 [scsi_tmf_3]
+root        131      2  0 09:35 ?        00:00:00 [scsi_eh_4]
+root        132      2  0 09:35 ?        00:00:00 [scsi_tmf_4]
+root        133      2  0 09:35 ?        00:00:00 [scsi_eh_5]
+root        134      2  0 09:35 ?        00:00:00 [scsi_tmf_5]
+root        135      2  0 09:35 ?        00:00:00 [scsi_eh_6]
+root        136      2  0 09:35 ?        00:00:00 [scsi_tmf_6]
+root        137      2  0 09:35 ?        00:00:00 [scsi_eh_7]
+root        138      2  0 09:35 ?        00:00:00 [scsi_tmf_7]
+root        139      2  0 09:35 ?        00:00:00 [scsi_eh_8]
+root        140      2  0 09:35 ?        00:00:00 [scsi_tmf_8]
+root        141      2  0 09:35 ?        00:00:00 [scsi_eh_9]
+root        142      2  0 09:35 ?        00:00:00 [scsi_tmf_9]
+root        143      2  0 09:35 ?        00:00:00 [scsi_eh_10]
+root        144      2  0 09:35 ?        00:00:00 [scsi_tmf_10]
+root        145      2  0 09:35 ?        00:00:00 [scsi_eh_11]
+root        146      2  0 09:35 ?        00:00:00 [scsi_tmf_11]
+root        147      2  0 09:35 ?        00:00:00 [scsi_eh_12]
+root        148      2  0 09:35 ?        00:00:00 [scsi_tmf_12]
+root        149      2  0 09:35 ?        00:00:00 [scsi_eh_13]
+root        150      2  0 09:35 ?        00:00:00 [scsi_tmf_13]
+root        151      2  0 09:35 ?        00:00:00 [scsi_eh_14]
+root        152      2  0 09:35 ?        00:00:00 [scsi_tmf_14]
+root        153      2  0 09:35 ?        00:00:00 [scsi_eh_15]
+root        154      2  0 09:35 ?        00:00:00 [scsi_tmf_15]
+root        155      2  0 09:35 ?        00:00:00 [scsi_eh_16]
+root        156      2  0 09:35 ?        00:00:00 [scsi_tmf_16]
+root        157      2  0 09:35 ?        00:00:00 [scsi_eh_17]
+root        158      2  0 09:35 ?        00:00:00 [scsi_tmf_17]
+root        159      2  0 09:35 ?        00:00:00 [scsi_eh_18]
+root        160      2  0 09:35 ?        00:00:00 [scsi_tmf_18]
+root        161      2  0 09:35 ?        00:00:00 [scsi_eh_19]
+root        162      2  0 09:35 ?        00:00:00 [scsi_tmf_19]
+root        163      2  0 09:35 ?        00:00:00 [scsi_eh_20]
+root        164      2  0 09:35 ?        00:00:00 [scsi_tmf_20]
+root        165      2  0 09:35 ?        00:00:00 [scsi_eh_21]
+root        166      2  0 09:35 ?        00:00:00 [scsi_tmf_21]
+root        167      2  0 09:35 ?        00:00:00 [scsi_eh_22]
+root        168      2  0 09:35 ?        00:00:00 [scsi_tmf_22]
+root        169      2  0 09:35 ?        00:00:00 [scsi_eh_23]
+root        170      2  0 09:35 ?        00:00:00 [scsi_tmf_23]
+root        171      2  0 09:35 ?        00:00:00 [scsi_eh_24]
+root        172      2  0 09:35 ?        00:00:00 [scsi_tmf_24]
+root        173      2  0 09:35 ?        00:00:00 [scsi_eh_25]
+root        174      2  0 09:35 ?        00:00:00 [scsi_tmf_25]
+root        175      2  0 09:35 ?        00:00:00 [scsi_eh_26]
+root        176      2  0 09:35 ?        00:00:00 [scsi_tmf_26]
+root        177      2  0 09:35 ?        00:00:00 [scsi_eh_27]
+root        178      2  0 09:35 ?        00:00:00 [scsi_tmf_27]
+root        179      2  0 09:35 ?        00:00:00 [scsi_eh_28]
+root        180      2  0 09:35 ?        00:00:00 [scsi_tmf_28]
+root        181      2  0 09:35 ?        00:00:00 [scsi_eh_29]
+root        182      2  0 09:35 ?        00:00:00 [scsi_tmf_29]
+root        183      2  0 09:35 ?        00:00:00 [scsi_eh_30]
+root        184      2  0 09:35 ?        00:00:00 [scsi_tmf_30]
+root        185      2  0 09:35 ?        00:00:00 [scsi_eh_31]
+root        186      2  0 09:35 ?        00:00:00 [scsi_tmf_31]
+root        214      2  0 09:35 ?        00:00:00 [scsi_eh_32]
+root        215      2  0 09:35 ?        00:00:00 [scsi_tmf_32]
+root        228      2  0 09:35 ?        00:00:02 [jbd2/sda1-8]
+root        229      2  0 09:35 ?        00:00:00 [ext4-rsv-conver]
+root        352      1  0 09:35 ?        00:00:00 upstart-udev-bridge --daemon
+root        357      1  0 09:35 ?        00:00:00 /lib/systemd/systemd-udevd --daemon
+root        462      2  0 09:36 ?        00:00:00 [ttm_swap]
+root        464      1  0 09:36 ?        00:00:00 upstart-file-bridge --daemon
+root        472      2  0 09:36 ?        00:00:00 [kworker/0:1H]
+syslog      578      1  0 09:36 ?        00:00:00 rsyslogd
+message+    583      1  0 09:36 ?        00:00:01 dbus-daemon --system --fork
+root        632      1  0 09:36 ?        00:00:00 /usr/sbin/bluetoothd
+root        638      1  0 09:36 ?        00:00:00 /lib/systemd/systemd-logind
+root        646      2  0 09:36 ?        00:00:00 [krfcommd]
+root        676      1  0 09:36 ?        00:00:00 upstart-socket-bridge --daemon
+avahi       683      1  0 09:36 ?        00:00:00 avahi-daemon: running [ubuntu.local]
+avahi       684    683  0 09:36 ?        00:00:00 avahi-daemon: chroot helper
+root        746      1  0 09:36 ?        00:00:00 /usr/sbin/ModemManager
+root        876      1  0 09:36 ?        00:00:02 NetworkManager
+root        894      1  0 09:36 ?        00:00:01 /usr/lib/policykit-1/polkitd --no-debug
+root        944      1  0 09:36 tty4     00:00:00 /sbin/getty -8 38400 tty4
+root        948      1  0 09:36 tty5     00:00:00 /sbin/getty -8 38400 tty5
+root        949      1  0 09:36 ?        00:00:04 thermald --no-daemon --dbus-enable
+root        956      1  0 09:36 tty2     00:00:00 /sbin/getty -8 38400 tty2
+root        957      1  0 09:36 tty3     00:00:00 /sbin/getty -8 38400 tty3
+root        960      1  0 09:36 tty6     00:00:00 /sbin/getty -8 38400 tty6
+root        998      1  0 09:36 ?        00:00:00 /usr/sbin/sshd -D
+root       1010      1  0 09:36 ?        00:00:00 acpid -c /etc/acpi/events -s /var/run/acpid.socket
+root       1025      1  0 09:36 ?        00:00:00 cron
+root       1047      1  0 09:36 ?        00:00:00 /usr/sbin/cups-browsed
+kernoops   1057      1  0 09:36 ?        00:00:00 /usr/sbin/kerneloops
+whoopsie   1071      1  0 09:36 ?        00:00:00 whoopsie
+nobody     1085    876  0 09:36 ?        00:00:00 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/run/sendsigs.omit.d/network-manager.dnsmasq.pid --listen-address=127.0.1.1 --conf-file=/var/run/NetworkManager/dnsmasq.conf --cache-size=0 --proxy-dnssec --enable-dbus=org.freedesktop.NetworkManager.dnsmasq --conf-dir=/etc/NetworkManager/dnsmasq.d
+root       1123      1  0 09:36 ?        00:00:49 /usr/bin/vmtoolsd
+root       1238      1  0 09:36 tty1     00:00:00 /sbin/getty -8 38400 tty1
+root       1356      1  0 09:36 ?        00:00:00 lightdm
+root       1369   1356  0 09:36 tty7     00:03:11 /usr/bin/X -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root       1372      1  0 09:36 ?        00:00:00 /usr/lib/accountsservice/accounts-daemon
+root       1412      2  0 09:36 ?        00:00:00 [kauditd]
+root       1455   1356  0 09:36 ?        00:00:00 lightdm --session-child 12 19
+root       1493      1  0 09:36 ?        00:00:00 /usr/lib/upower/upowerd
+rtkit      1532      1  0 09:36 ?        00:00:00 /usr/lib/rtkit/rtkit-daemon
+colord     1725      1  0 09:36 ?        00:00:00 /usr/lib/colord/colord
+chunppo    1757      1  0 09:41 ?        00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+chunppo    1768   1455  0 09:41 ?        00:00:00 init --user
+chunppo    1870   1768  0 09:41 ?        00:00:01 dbus-daemon --fork --session --address=unix:abstract=/tmp/dbus-O6wOYY4vfl
+chunppo    1881   1768  0 09:41 ?        00:00:00 upstart-event-bridge
+chunppo    1894   1768  0 09:41 ?        00:00:00 /usr/lib/x86_64-linux-gnu/hud/window-stack-bridge
+chunppo    1904   1768  0 09:41 ?        00:00:00 upstart-file-bridge --daemon --user
+chunppo    1906   1768  0 09:41 ?        00:00:00 upstart-dbus-bridge --daemon --session --user --bus-name session
+chunppo    1908   1768  0 09:41 ?        00:00:00 upstart-dbus-bridge --daemon --system --user --bus-name system
+chunppo    1909   1768  0 09:41 ?        00:00:11 /usr/bin/ibus-daemon --daemonize --xim
+chunppo    1932   1768  0 09:41 ?        00:00:01 /usr/lib/unity-settings-daemon/unity-settings-daemon
+chunppo    1937   1768  0 09:41 ?        00:00:05 /usr/lib/x86_64-linux-gnu/hud/hud-service
+chunppo    1939   1768  0 09:41 ?        00:00:00 /usr/lib/at-spi2-core/at-spi-bus-launcher --launch-immediately
+chunppo    1940   1768  0 09:41 ?        00:00:00 gnome-session --session=ubuntu
+chunppo    1944   1768  0 09:41 ?        00:00:05 /usr/lib/unity/unity-panel-service
+chunppo    1946   1939  0 09:41 ?        00:00:00 /bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+chunppo    1949   1768  0 09:41 ?        00:00:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+chunppo    1961   1768  0 09:41 ?        00:00:00 /usr/lib/gvfs/gvfsd
+chunppo    1965   1768  0 09:41 ?        00:00:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+chunppo    1982   1768  0 09:41 ?        00:00:01 /usr/lib/x86_64-linux-gnu/bamf/bamfdaemon
+chunppo    1988   1909  0 09:41 ?        00:00:00 /usr/lib/ibus/ibus-dconf
+chunppo    1992   1768  0 09:41 ?        00:00:00 /usr/lib/dconf/dconf-service
+chunppo    1996   1909  0 09:41 ?        00:00:01 /usr/lib/ibus/ibus-ui-gtk3
+chunppo    2001   1768  0 09:41 ?        00:00:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+chunppo    2009   1768  0 09:41 ?        00:01:47 /usr/bin/pulseaudio --start --log-target=syslog
+chunppo    2016   1768  0 09:41 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-keyboard-service --use-gtk
+chunppo    2018   1909  0 09:41 ?        00:00:01 /usr/lib/ibus/ibus-engine-simple
+chunppo    2020   1768  0 09:41 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-messages/indicator-messages-service
+chunppo    2022   1768  0 09:41 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-bluetooth/indicator-bluetooth-service
+chunppo    2024   1768  0 09:41 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service
+chunppo    2027   1768  0 09:41 ?        00:00:01 /usr/lib/x86_64-linux-gnu/indicator-datetime/indicator-datetime-service
+chunppo    2033   1768  0 09:41 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-sound/indicator-sound-service
+chunppo    2035   1768  0 09:41 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-printers/indicator-printers-service
+chunppo    2044   1768  0 09:41 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-session/indicator-session-service
+chunppo    2045   1768  0 09:41 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-application/indicator-application-service
+chunppo    2097   1768  0 09:42 ?        00:00:00 /usr/lib/evolution/evolution-source-registry
+chunppo    2192   1768  0 09:42 ?        00:00:00 /usr/lib/evolution/evolution-calendar-factory
+chunppo    2197   1940  0 09:42 ?        00:05:08 compiz
+chunppo    2209   1768  0 09:42 ?        00:00:00 /usr/lib/gvfs/gvfsd-metadata
+chunppo    2216   1768  0 09:42 ?        00:00:52 /usr/bin/vmtoolsd -n vmusr
+chunppo    2218   1940  0 09:42 ?        00:00:00 nm-applet
+chunppo    2220   1940  0 09:42 ?        00:00:10 nautilus -n
+chunppo    2227   1940  0 09:42 ?        00:00:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+chunppo    2232   1768  0 09:42 ?        00:00:00 /usr/lib/x86_64-linux-gnu/gconf/gconfd-2
+chunppo    2234   1940  0 09:42 ?        00:00:00 /usr/lib/unity-settings-daemon/unity-fallback-mount-helper
+chunppo    2243   1768  0 09:42 ?        00:00:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+root       2250      1  0 09:42 ?        00:00:00 /usr/lib/udisks2/udisksd --no-debug
+chunppo    2291   1768  0 09:42 ?        00:00:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+chunppo    2295   1768  0 09:42 ?        00:00:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+chunppo    2299   1768  0 09:42 ?        00:00:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+chunppo    2305   1768  0 09:43 ?        00:00:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.8 /org/gtk/gvfs/exec_spaw/0
+chunppo    2312   1768  0 09:43 ?        00:00:00 /usr/lib/gvfs/gvfsd-burn --spawner :1.8 /org/gtk/gvfs/exec_spaw/1
+chunppo    2324   1940  0 09:43 ?        00:00:00 telepathy-indicator
+chunppo    2332   1768  0 09:43 ?        00:00:00 /usr/lib/telepathy/mission-control-5
+chunppo    2345   1940  0 09:43 ?        00:00:01 zeitgeist-datahub
+chunppo    2350   1768  0 09:43 ?        00:00:00 /usr/bin/zeitgeist-daemon
+chunppo    2356   1768  0 09:43 ?        00:00:01 /usr/lib/x86_64-linux-gnu/zeitgeist-fts
+chunppo    2365   2356  0 09:43 ?        00:00:00 /bin/cat
+chunppo    2437   1940  0 09:43 ?        00:00:01 update-notifier
+chunppo    2466   1768  0 09:44 ?        00:00:07 /usr/bin/python3 /usr/bin/update-manager --no-update --no-focus-on-map
+chunppo    2509   1940  0 09:44 ?        00:00:00 /usr/lib/x86_64-linux-gnu/deja-dup/deja-dup-monitor
+root       3111      1  0 10:08 ?        00:00:00 /usr/sbin/cupsd -f
+lp         3115   3111  0 10:08 ?        00:00:00 /usr/lib/cups/notifier/dbus dbus:// 
+chunppo    4826      1  0 16:29 ?        00:00:00 /bin/bash -c  clear; ./sh11
+chunppo    4828   4826  0 16:29 ?        00:00:05 /bin/bash ./sh11
+chunppo    5362   1768  0 11:43 ?        00:00:00 /usr/lib/libunity-webapps/unity-webapps-service
+root       5856      2  0 16:30 ?        00:00:08 [kworker/0:0]
+root       5919    998  0 16:30 ?        00:00:00 sshd: chunppo [priv]
+chunppo    6159   5919  0 16:30 ?        00:00:07 sshd: chunppo@pts/25
+chunppo    6160   6159  0 16:30 pts/25   00:00:00 -bash
+chunppo    6238   1768  0 12:37 ?        00:00:00 /usr/lib/x86_64-linux-gnu/unity-scope-home/unity-scope-home
+chunppo    6252   1768  0 12:37 ?        00:00:01 /usr/bin/unity-scope-loader applications/applications.scope applications/scopes.scope commands.scope
+chunppo    6254   1768  0 12:37 ?        00:00:00 /usr/lib/x86_64-linux-gnu/unity-lens-files/unity-files-daemon
+chunppo    6273   1768  0 12:37 ?        00:00:00 /usr/lib/x86_64-linux-gnu/unity-lens-music/unity-music-daemon
+chunppo    7167   1768  0 12:47 ?        00:00:54 gnome-terminal
+chunppo    7175   7167  0 12:47 ?        00:00:00 gnome-pty-helper
+chunppo    7176   7167  0 12:47 pts/13   00:00:00 bash
+chunppo   19299   1768  0 16:49 ?        00:00:00 /usr/lib/unity/unity-panel-service --lockscreen-mode
+root      26388      2  0 15:23 ?        00:00:02 [kworker/0:1]
+chunppo   37749   1768  0 13:12 ?        00:00:01 /usr/lib/x86_64-linux-gnu/notify-osd
+root      43921      2  0 19:04 ?        00:00:00 [kworker/u256:2]
+root      44618      2  0 19:15 ?        00:00:00 [kworker/u256:0]
+chunppo   45199   6160  0 19:25 pts/25   00:00:00 vi awk_test
+chunppo   45447  45199  0 19:29 pts/25   00:00:00 /bin/bash -c  clear; ./awk_test
+chunppo   45449  45447  0 19:29 pts/25   00:00:00 /bin/bash ./awk_test
+chunppo   45450  45449  0 19:29 pts/25   00:00:00 ps -ef
+root     111098      2  0 16:11 ?        00:00:00 [kworker/u257:0]
+root     111099      2  0 16:11 ?        00:00:00 [hci0]
+root     111100      2  0 16:11 ?        00:00:00 [hci0]
+root     111102      2  0 16:11 ?        00:00:00 [kworker/u257:2]
+root     111116    876  0 16:11 ?        00:00:00 /sbin/dhclient -d -sf /usr/lib/NetworkManager/nm-dhcp-client.action -pf /run/sendsigs.omit.d/network-manager.dhclient-eth0.pid -lf /var/lib/NetworkManager/dhclient-f56e9a76-4efd-4ec9-b330-cf36839c96f3-eth0.lease -cf /var/lib/NetworkManager/dhclient-eth0.conf eth0
+root     111306    998  0 16:13 ?        00:00:00 sshd: chunppo [priv]
+chunppo  111347 111306  0 16:13 ?        00:00:02 sshd: chunppo@pts/24
+chunppo  111348 111347  0 16:13 pts/24   00:00:00 -bash

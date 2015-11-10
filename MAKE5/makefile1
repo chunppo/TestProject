@@ -1,0 +1,13 @@
+#makefile1
+
+foo : foo.c foo.h
+	cc -c -o foo.o -I.
+
+goo : goo.c goo.h
+	cc -c -o goo.o -I.
+
+main : main.c foo.h goo.h
+	cc -c -o main.o -I.
+
+app : main.o foo.o goo.o
+	cc -i aoo main.o foo.o goo.o

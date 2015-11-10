@@ -1,0 +1,3 @@
+total 4
+-rw-rw-r-- 1 chunppo chunppo 60 Oct 19 17:20 foo.txt
+-rw-rw-r-- 1 chunppo chunppo  0 Oct 19 17:20 goo.txt

@@ -1,0 +1,27 @@
+#!/bin/bash
+
+name="root1"
+
+# 1. 기본 모양 if ~ then ~ fi
+if [[ "$name" == "root" ]]
+then
+	echo "root"
+elif [[ "$name" == "aaa" ]]
+then
+	echo "aaa"
+else
+	echo "others"
+fi
+
+# 2. then 붙여 쓰기
+if [[ "$name" == "root1" ]]; then
+	echo "root1"
+fi
+
+# 3. file 존재 조사하기 - 많이 사용되는 표현식
+if [[ -f "sh4" ]]
+then
+	echo "sh4 is exist"
+fi
+
+

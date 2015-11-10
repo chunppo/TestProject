@@ -1,0 +1,11 @@
+#!/bin/bash
+
+add()
+{
+	echo "add"
+	sum=$(($1+$2))
+	return $sum
+}
+
+# source 또는 . 는 메모리에 올려서 어디서든 실행할 수 있다.
+# unset -f add 메모리 삭제

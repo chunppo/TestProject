@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# 배열 사용하기
+
+
+# 배열 선언
+myArray=("AAV" "BB" "CC")
+
+# 배열 사용하기
+echo ${myArray[0]}
+echo ${myArray[1]}
+echo ${myArray[*]} # 모든 요소
+echo ${myArray[@]}
+echo ${!myArray[@]}
+echo ${#myArray[@]}
+echo ${#myArray[0]}
+
+echo "##################"
+
+i=0
+for ((i=0;i<5;i++))
+do
+	echo ${myArray[$i]}
+done

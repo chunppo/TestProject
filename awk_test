@@ -1,0 +1,35 @@
+#!/bin/bash
+
+# awk_test
+
+# 수 많은 화일중에 원하는 파일을 찾고(find), 해당 파일에서 원하는 문자열 검색함(grep)
+# 보기 좋은 형태로 출력(report작성 또는 DB 넣기등...) => awk 를 사용
+
+# awk : 데이타 프로세싱, 리포트 작성, 간단한 DB 구축, 약자는 개발자 이름
+
+# 0. 테스트 파일 준비
+# ps -ef > ps.txt
+
+# 1. 기본 모양
+# awk '{print $8}' ps.txt	# 8번째 필드만 출력 awk '{명령어} 또는 제어문'
+# awk '{print $1, $8}' ps.txt	# , : 각 필드를 OFS변수의 값으로 분리해달라 (디폴트 ' ')
+# awk '{print NR, $8}' ps.txt	# NR : awk 내장 변수, 줄 번호...
+# awk '{print NR " : " $8}' ps.txt	# 문자열끼리 연결 가능
+# awk '{printf "%05s : %s\n", NR, $8}' ps.txt	# 
+
+# 2. 파일이 아닌 파이프 라인 data 처리
+# date	# 날짜를 출력하는 쉘 명령어
+# date +%F	# 다양한 옵션으로 출력 형태의 변경 가능 - man date 참고
+# 쉘 명령어의 출력 결과를 원하는 형태로 가공
+
+# date +%F | awk '{print $1"년", $2"월", $3"일"}'
+# date +%F | awk -F- '{print $1"년", $2"월", $3"일"}'	# -F : 필드 구분자 변경, 필드 구분자가 2단어 이상일 경우 -F'AB' 로 묶는다.
+# date +%F | awk -F'[- ]' '{print $1"년", $2"월", $3"일"}'	# FS(field seperator)로 정규 표현식도 가능
+# date +%F | awk -F'[- ]' '{printf "%s년 %s월 %s일\n", $1, $2, $3}'	# FS(field seperator)로 정규 표현식도 가능
+
+#cat /etc/passwd | awk -F: '{printf "ID : %s, UID : %s\n", $1, $3}'
+# awk -F: '{printf "UID : %05s, ID : %s\n", $3, $1}' /etc/passwd
+
+
+
+

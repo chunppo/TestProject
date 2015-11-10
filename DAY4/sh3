@@ -1,0 +1,47 @@
+#!/bin/bash
+
+msg="hello world"
+
+echo msg
+echo $msg	# 값을 출력하려면 앞에 $가 있어야 한다.
+echo "$msg"	# 값
+echo '$msg'	# 문자열
+echo \$msg	# 문자열
+
+echo "'$msg'"	# '값' 
+
+echo $msgaaa	# 새로운 변수가 생성됨
+echo "$msg"aaaa
+
+# 변수를 사용한 산술연산 - 중요!!
+num=1
+#num=$num+1
+let num=$num+1
+#num=$(($num+1))
+num=$((num+1))
+
+echo $num
+
+# 정수형 변수도 가능함 - bash 확장 기능
+declare AA="Hello"	# declare는 생략 가능!!
+declare -i n2=1		# 정수형 변수!! 1대신 문자열을 넣으면 0으로 초기화
+
+n2=$n2+1
+echo "정수형 변수:"$n2
+
+# 환경변수
+echo $HOME
+echo $LOGNAME
+
+# 명령형 전달 인자
+set aa bb cc dd
+
+echo $0	# 현재 파일 이름
+echo $1
+echo $2
+echo $3
+echo $#
+echo $*
+echo $$
+
+

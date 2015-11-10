@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# sh11 : signal 제어
+
+trap 'echo "ctrl-c로 종료되지 않습니다."'	INT 
+trap 'echo "ctrl-z"' 		TSTP
+trap 'echo "kill signal"'	KILL
+
+while true
+do
+	echo "some work..."
+	sleep 1
+done
+
+# chmod +x sh11 후에 ./sh11 로 실행하거나..
+# imap 연결해 놓으신분은 실행해보세요...
