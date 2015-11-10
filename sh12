@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# 5. awk 내장 변수
+#awk '{print NR, NF, $NF}' data.txt # NR: 라인넘버, NF: 필드 갯수, $NF : 마지막 필드문자
+
+# 6. BEGIN, END
+#awk BEGIN{FS=" ";OFS="\t";ORS="\n\n"}{print$1, $2, $3}END{print "total record is " NR} data.txt
+
+awk BEGIN {print "----------------------------"
+		  print "%10s %10s %10s\n", "ID", "PASSWD", "UID"
+		  print "----------------------------"}
+		  $2 > 10000 { printf "%10s %10s %10s\n", $1, $2, $3}
+	END {print "---------------------------"} data.txt
+
+
+
+

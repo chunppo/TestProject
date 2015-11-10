@@ -1,0 +1,35 @@
+#!/bin/bash
+
+# sed_test
+
+# dtat file 준비
+#ls ~ -al > sed_data.txt
+
+# 1. sed (stream lined editor) 기본 모양
+# sed '명령어' filename # 파일을 조작하는 함수
+
+# find : 파일 검색
+# grep : 파일에서 문자열 검색
+# awk : 출력
+# sed : 파일 조작(변경) 편집기
+
+#sed '1,3p' sed_data.txt # 1 ~ 3행까지 출력 p : print
+
+# sed -n '1,3p' sed_data.txt # 전체 출력없이 명령문만 출력해라
+
+# 정규 표현식으로 검색후 출력 txt 문자열을 검색 후 출력해 보세요.
+#sed -n '/DAY/p' sed_data.txt
+
+# d 명령 : 삭제
+#sed '1,10d' sed_data.txt # 1 ~ 10행 삭제
+
+# s 명령 : 치환
+#sed 's/chunppo/kkk/' sed_data.txt # 'root'를 'kkk'로 치환.. 첫번째 단어만
+sed 's/chunppo/kkk/g' sed_data.txt # 모든 단어를 치환
+
+
+
+
+
+
+
